@@ -1,0 +1,30 @@
+h3
+{
+    color: blueviolet;
+    animation-name: example1;
+    animation-duration: 1s;
+    animation-iteration-count: infinite;
+    font-size: 25px;
+} 
+@keyframes example1
+{
+    0%{font-size: 26px; color: chocolate;}
+    25%{font-size: 27px; color: crimson;}
+    50%{font-size: 28px; color: blueviolet;}
+    75%{font-size: 29px; color: blue;}
+    100%{font-size: 30px; color: green;}
+}
+canvas
+{
+    animation-name: example2;
+    animation-duration: 10s;
+    animation-iteration-count: infinite;
+}
+@keyframes example2
+{
+    0%{box-shadow: 1px 1px 38px red;}
+    25%{box-shadow: 1px 1px 38px yellow;}
+    50%{box-shadow: 1px 1px 38px blue;}
+    75%{box-shadow: 1px 1px 38px violet;}
+    100%{box-shadow: 1px 1px 38px green;}
+}
